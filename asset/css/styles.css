@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Epilogue", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to right, #005490, #31326f);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #005490;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.container {
+  margin: 2rem 0;
+  width: 80rem;
+  height: 30rem;
+  text-align: left;
+  background-color: #222831;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.text1 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(62deg, #eb5603 0%, #ebcc8c 100%);
+  font-size: 8rem;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 3rem;
+  transform: translateY(-50%);
+}
+.text2 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(62deg, #eb5603 0%, #ebcc8c 100%);
+  font-size: 8rem;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 3rem;
+  transform: translateY(-50%);
+}
+
+/*# sourceMappingURL=styles.css.map */
